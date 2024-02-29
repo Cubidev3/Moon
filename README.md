@@ -1,7 +1,8 @@
 # Be-a-Ray
 
 A Little Raytracer written in Rust
-Attention!: This project is under heavy development
+
+- Attention!: This project is under heavy development
 
 # Current Capabilities
 
