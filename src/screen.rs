@@ -1,4 +1,4 @@
-use std::fmt::format;
+
 use crate::color::Color;
 
 pub struct Screen {

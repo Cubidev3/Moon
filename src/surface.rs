@@ -1,4 +1,4 @@
-use crate::color::Color;
+
 use crate::material::Material;
 use crate::ray::Ray;
 use crate::vector::Vector;

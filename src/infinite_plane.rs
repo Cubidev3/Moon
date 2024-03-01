@@ -1,4 +1,4 @@
-use crate::color::Color;
+
 use crate::material::Material;
 use crate::surface::{RayIntersectionResult, Surface};
 use crate::ray::Ray;

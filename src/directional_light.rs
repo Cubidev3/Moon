@@ -1,5 +1,5 @@
 use crate::color::Color;
-use crate::light_ray::LightRay;
+
 use crate::light_source::LightSource;
 use crate::vector::Vector;
 
@@ -18,7 +18,7 @@ impl DirectionalLight {
 }
 
 impl LightSource for DirectionalLight {
-    fn get_light_direction_from(&self, point: Vector) -> Vector {
+    fn get_light_direction_from(&self, _point: Vector) -> Vector {
         self.direction
     }
 

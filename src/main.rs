@@ -1,15 +1,15 @@
-use std::f64::consts::PI;
+
 use std::fs::File;
 use std::io::Write;
-use std::path::Path;
+
 use crate::camera::Camera;
 use crate::color::Color;
 use crate::directional_light::DirectionalLight;
 use crate::infinite_plane::InfinitePlane;
 use crate::material::Material;
 use crate::multisurface::MultiSurface;
-use crate::surface::{RayIntersectionResult, Surface};
-use crate::ray::Ray;
+
+
 use crate::screen::Screen;
 use crate::sphere::Sphere;
 use crate::vector::Vector;

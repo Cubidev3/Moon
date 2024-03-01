@@ -1,13 +1,13 @@
-use std::f64::consts::PI;
-use std::ptr::read;
+
+
 use crate::basis::Basis;
 use crate::color::Color;
 use crate::light_ray::LightRay;
 use crate::light_source::LightSource;
 use crate::surface::{RayIntersectionResult, Surface};
 use crate::ray::Ray;
-use crate::screen::{Screen, self};
-use crate::surface;
+use crate::screen::{Screen};
+
 use crate::vector::Vector;
 
 pub struct Camera {
