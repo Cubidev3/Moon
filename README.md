@@ -1,4 +1,4 @@
-# Be-a-Ray
+# Moon
 
 A Little Raytracer written in Rust
 
