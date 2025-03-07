@@ -1,10 +1,8 @@
 # Moon
 
-A Little Raytracer written in Rust
+A Little CPU Singlethreaded Raytracer written in Rust
 
-- Attention!: This project is under heavy development
-
-# Current Capabilities
+## Current Capabilities
 
 - Lambertian shading
 - Blinn-Phong shading
@@ -14,7 +12,7 @@ A Little Raytracer written in Rust
 - Colored Light
 - Export to .pbm file
 
-# In The Future
+## In The Future
 
 - Multithreading
 - GPU Acceleration
